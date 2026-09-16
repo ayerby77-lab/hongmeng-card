@@ -1,0 +1,13 @@
+/oh_modules/
+/node_modules/
+/.hvigor/
+/.omx/
+/build/
+/entry/build/
+/entry/oh_modules/
+/local.properties
+*.p12
+*.cer
+*.p7b
+.DS_Store
+/dist/
