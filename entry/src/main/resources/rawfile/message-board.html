@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>相遇留言板</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f2eb;color:#20332e;font:16px system-ui,sans-serif}main{max-width:640px;margin:auto;padding:20px}header{background:#214e45;color:#fff;padding:28px;border-radius:22px}small{color:#e6d7b5;letter-spacing:2px}h1{font-size:30px;margin:12px 0}header p{color:#d3e2da;line-height:1.7;margin-bottom:0}form{background:white;padding:22px;border-radius:20px;margin:20px 0}label{display:block;font-size:14px;margin-bottom:8px}input,textarea{font:inherit;width:100%;padding:12px;border:1px solid #bcc8bd;border-radius:10px;background:#fafbf8;color:#20332e}textarea{resize:vertical;min-height:120px;line-height:1.6}input{margin-bottom:18px}button{font:inherit;border:0;border-radius:12px;padding:13px 18px;background:#214e45;color:white;cursor:pointer}button:disabled{opacity:.5;cursor:wait}button:focus-visible,input:focus,textarea:focus{outline:2px solid #af8239;outline-offset:3px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}.secondary{background:#e8ece3;color:#214e45}.meta{color:#707d76;font-size:12px}#count{text-align:right;margin:5px 0}#status{font-size:14px;color:#8e352b;line-height:1.5}#notice{padding:16px;background:#e6d7b5;border-radius:12px;margin-top:16px}h2{font-size:20px;margin-top:30px}.message{background:#fff;border-radius:16px;padding:20px;margin:12px 0}.message h3{font-size:16px;margin:0 0 6px}.message p{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.7;margin-bottom:0}.empty{padding:30px;text-align:center;color:#707d76}footer{text-align:center;font-size:12px;color:#707d76;padding:20px}
+</style>
+</head>
+<body><main>
+<header><small>CARD FOLIO / 相遇的回声</small><h1>留一句话，<br>收藏此刻。</h1><p>把想说的话留在这里。每条留言都保存在这台设备，离线也能再次读到。</p></header>
+<div id="notice" role="status" hidden></div>
+<form id="form">
+<label for="name">你的昵称</label><input id="name" maxlength="30" placeholder="如何称呼你" required autocomplete="nickname">
+<label for="content">想留下的话</label><textarea id="content" maxlength="500" placeholder="记录一次相遇，或分享今天的小确幸……" required></textarea>
+<p id="count" class="meta">0 / 500</p>
+<div class="actions"><button id="submit" type="submit" disabled>保存留言</button><button id="toast" class="secondary" type="button" disabled>体验原生 Toast</button></div>
+<p id="status" role="status">正在连接本机存储…</p>
+</form>
+<h2 id="heading">留言时光</h2><section id="messages" aria-label="历史留言"></section>
+<footer>本机保存 · 最多 500 条 · 卸载应用会清除数据</footer>
+</main>
+<script>
+'use strict';
+const byId = id => document.getElementById(id);
+let ready = false;
+window.MessageBoard = {
+  renderMessages(messages) {
+    const list = byId('messages');
+    list.replaceChildren();
+    byId('heading').textContent = '留言时光 · ' + messages.length;
+    if (!messages.length) {
+      const empty = document.createElement('p'); empty.className = 'empty';
+      empty.textContent = '还没有留言，写下第一句问候吧。'; list.append(empty);
+    }
+    messages.forEach(message => {
+      const article = document.createElement('article'); article.className = 'message';
+      const name = document.createElement('h3'); name.textContent = message.name;
+      const date = document.createElement('time'); date.className = 'meta';
+      date.dateTime = new Date(message.createdAt).toISOString(); date.textContent = new Date(message.createdAt).toLocaleString('zh-CN');
+      const content = document.createElement('p'); content.textContent = message.content;
+      article.append(name, date, content); list.append(article);
+    });
+    ready = true; byId('submit').disabled = false; byId('toast').disabled = false;
+    byId('status').textContent = '已连接本机存储，留言仅在保存成功后显示。';
+  },
+  notify(text) { byId('notice').textContent = text; byId('notice').hidden = false; }
+};
+byId('content').addEventListener('input', () => { byId('count').textContent = byId('content').value.length + ' / 500'; });
+byId('form').addEventListener('submit', event => {
+  event.preventDefault(); if (!ready) return;
+  const name = byId('name').value.trim(), content = byId('content').value.trim();
+  if (!name || name.length > 30 || !content || content.length > 500) {
+    byId('status').textContent = '请填写 1–30 字昵称和 1–500 字留言。'; return;
+  }
+  byId('submit').disabled = true;
+  try {
+    const result = JSON.parse(window.NativeBoard.submitMessage(name, content));
+    if (result.ok) { byId('content').value = ''; byId('count').textContent = '0 / 500'; byId('status').textContent = '留言已保存。'; }
+    else byId('status').textContent = result.error || '保存失败，请重试。';
+  } catch (error) { byId('status').textContent = '原生连接异常，请返回后重新打开。'; }
+  finally { byId('submit').disabled = false; }
+});
+byId('toast').addEventListener('click', () => {
+  try { window.NativeBoard.showToast('你好！这条提示来自鸿蒙原生侧。'); }
+  catch (error) { byId('status').textContent = '原生提示暂不可用，请重试。'; }
+});
+</script></body></html>

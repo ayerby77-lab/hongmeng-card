@@ -1,6 +1,6 @@
 # 名片夹 · HarmonyOS 课程项目
 
-原生 ArkTS / ArkUI 课程应用，包含电子名片管理和省市天气预报。
+原生 ArkTS / ArkUI 课程应用，包含电子名片管理、省市天气预报和网页留言板。
 
 ## 已实现
 
@@ -16,6 +16,8 @@
 - 天气使用 Open-Meteo HTTPS 接口，无需 API 密钥、无第三方运行时依赖。
 
 天气设计、接口说明、验收步骤与验证记录见根目录 [doc/天气功能说明.md](doc/天气功能说明.md)。
+
+最新任务（2026-09-27）：网页留言板已实现本地 HTML、`javaScriptProxy` 原生桥接、原生持久化和 `runJavaScript` 数据回传，附带 Toast、通知、标题同步、加载进度与失败重试。实现说明与验收步骤见 [doc/网页留言板说明.md](doc/网页留言板说明.md)。
 
 ## 打开与构建
 
@@ -74,6 +76,6 @@ tests/                            业务与存储测试
 
 ## 代码库提交
 
-工程包含 `.gitignore`，排除构建产物、本机设置、缓存与签名文件。远程仓库为 https://github.com/ayerby77-lab/hongmeng-card 。最新天气任务要求于 2026-09-24 前提交；本次实现日期为 2026-09-29，提交记录使用实际日期。
+工程包含 `.gitignore`，排除构建产物、本机设置、缓存与签名文件。远程仓库为 https://github.com/ayerby77-lab/hongmeng-card 。最新网页留言板任务要求于 2026-10-07 前提交；本次实现日期为 2026-09-29。
 
 API 参考：[华为 HarmonyOS 文档中心](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/)、本机 SDK 的 `@ohos.file.fs.d.ts` 类型定义。

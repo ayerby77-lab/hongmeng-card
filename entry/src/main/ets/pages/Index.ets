@@ -201,6 +201,12 @@ struct Index {
         this.getUIContext().getRouter().pushUrl({ url: 'pages/Weather' })
           .catch(() => { this.error = '天气页面打开失败，请重试。'; });
       })
+    Button('网页留言板 · 留下相遇的回声').width('100%').height(46)
+      .backgroundColor('#E6D7B5').fontColor(this.green).margin({ bottom: 16 })
+      .onClick(() => {
+        this.getUIContext().getRouter().pushUrl({ url: 'pages/MessageBoard' })
+          .catch(() => { this.error = '留言板打开失败，请重试。'; });
+      })
     Row({ space: 24 }) {
       Column({ space: 4 }) {
         Text(this.cards.length.toString()).fontSize(28).fontWeight(FontWeight.Bold).fontColor(this.green)
