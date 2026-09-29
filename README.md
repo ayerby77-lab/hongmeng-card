@@ -1,6 +1,6 @@
 # 名片夹 · HarmonyOS 课程项目
 
-原生 ArkTS / ArkUI 电子名片管理应用。当前工作目录原本为空，因此本交付为独立可运行工程；已有课程项目可按下文合并。
+原生 ArkTS / ArkUI 课程应用，包含电子名片管理和省市天气预报。
 
 ## 已实现
 
@@ -10,7 +10,12 @@
 - 搜索姓名、公司、职位、电话、邮箱、备注；分组与收藏组合筛选。
 - 收藏、名片总数与收藏计数、空列表及搜索无结果状态。
 - vCard 3.0 文本复制，包含特殊字符转义和 UTF-8 折行；可将复制内容另存为 `.vcf` 交换联系人。
-- 本地 JSON 持久化，启动时自动恢复；无网络权限、无第三方运行时依赖。
+- 本地 JSON 持久化，启动时自动恢复；名片功能离线可用。
+- 省市联动天气查询：温度、天气状况、湿度、风力、风向、七日预报与降水概率。
+- 天气加载、断网、超时及服务异常提示，支持重试；请求独立封装并在离页时释放。
+- 天气使用 Open-Meteo HTTPS 接口，无需 API 密钥、无第三方运行时依赖。
+
+天气设计、接口说明、验收步骤与验证记录见根目录 [doc/天气功能说明.md](doc/天气功能说明.md)。
 
 ## 打开与构建
 
@@ -34,6 +39,10 @@ AppScope/                         应用信息与图标
 entry/src/main/ets/
   entryability/EntryAbility.ets    应用入口
   pages/Index.ets                  列表、详情、编辑页面
+  pages/Weather.ets                天气页面
+  model/Weather.ts                 天气校验与转换
+  model/WeatherCities.ts           省市坐标
+  service/WeatherService.ets       天气网络服务
   model/Card.ts                   数据模型、校验、筛选和 vCard
   store/CardStore.ets              本地读写与恢复
 entry/src/main/resources/         页面路由与资源
@@ -65,6 +74,6 @@ tests/                            业务与存储测试
 
 ## 代码库提交
 
-工程包含 `.gitignore`，排除构建产物、本机设置、缓存与签名文件。远程仓库地址由课程提交者提供。截图中的截止日期为 2026-09-11；本次环境日期为 2026-09-16，请按课程要求处理补交。
+工程包含 `.gitignore`，排除构建产物、本机设置、缓存与签名文件。远程仓库为 https://github.com/ayerby77-lab/hongmeng-card 。最新天气任务要求于 2026-09-24 前提交；本次实现日期为 2026-09-29，提交记录使用实际日期。
 
 API 参考：[华为 HarmonyOS 文档中心](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/)、本机 SDK 的 `@ohos.file.fs.d.ts` 类型定义。

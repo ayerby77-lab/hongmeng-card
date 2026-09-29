@@ -195,6 +195,12 @@ struct Index {
   @Builder
   private ListPage() {
     this.Header('名片夹', '把每一次相遇，好好收藏。')
+    Button('天气预报 · 查看出行天气').width('100%').height(46)
+      .backgroundColor(this.green).fontColor('#FFFFFF').margin({ bottom: 16 })
+      .onClick(() => {
+        this.getUIContext().getRouter().pushUrl({ url: 'pages/Weather' })
+          .catch(() => { this.error = '天气页面打开失败，请重试。'; });
+      })
     Row({ space: 24 }) {
       Column({ space: 4 }) {
         Text(this.cards.length.toString()).fontSize(28).fontWeight(FontWeight.Bold).fontColor(this.green)
