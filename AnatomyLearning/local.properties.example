@@ -1,0 +1,4 @@
+# Copy to local.properties and set your local SDK directory.
+# macOS example:
+sdk.dir=/Applications/DevEco-Studio.app/Contents/sdk
+# Windows: use your installation SDK path with forward slashes.

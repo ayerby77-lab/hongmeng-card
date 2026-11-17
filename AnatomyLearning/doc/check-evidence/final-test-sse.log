@@ -1,0 +1,18 @@
+✅ 跨包 — 半包不 emit — emitted=0
+✅ 跨包 — 完整事件 emit — text="你好世界"
+✅ 跨包中文 — TextDecoder 合并正确 — got="你好世界你好世界"
+✅ \r\n 混合 — token 正确
+✅ \n 纯 LF — token 正确
+✅ \r\n 混合 — citation 正确
+✅ data 保留内部空格 — got="hello world"
+✅ data: 两个前导空格 → 去一个留一个 — got=" leading"
+✅ data:无空格 → 完整保留 — got="noSpace"
+✅ error 后 late events 被 cancelled 守卫丢弃 — errorCount=1 afterCancel=1
+✅ error 事件已标记 errored
+✅ 同 buffer 三个事件全部 emit — got=3
+✅ 事件 1 是 token
+✅ 事件 2 是 citation
+✅ 事件 3 是 token
+
+========== 结果：15/15 ==========
+🎉 全部通过！SSE 解析逻辑正确。

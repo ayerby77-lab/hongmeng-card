@@ -1,0 +1,39 @@
+11-17 11:42:55.559 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/human-atlas/index.html -> human-atlas/index.html
+11-17 11:42:55.713 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/human-atlas/assets/index-1ie-Jbum.js -> human-atlas/assets/index-1ie-Jbum.js
+11-17 11:42:55.713 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/human-atlas/assets/index-excBUMy1.css -> human-atlas/assets/index-excBUMy1.css
+11-17 11:42:55.762 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/human-atlas/models/atlas.json -> human-atlas/models/atlas.json
+11-17 11:42:55.780 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/human-atlas/favicon.svg -> human-atlas/favicon.svg
+11-17 11:42:55.785 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/human-atlas/favicon.svg -> human-atlas/favicon.svg
+11-17 11:42:55.787 23720 23720 I A00000/AnatomyBrowser: onWebReady: 页面=已加载；桥接=未就绪；状态=loading；进度=0%；最近事件=onWebReady（0ms前）
+11-17 11:42:55.974 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/models/body-0.bin.gz -> human-atlas/models/body-0.bin.gz
+11-17 11:42:55.974 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/models/body-1.bin.gz -> human-atlas/models/body-1.bin.gz
+11-17 11:42:55.974 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/models/body-2.bin.gz -> human-atlas/models/body-2.bin.gz
+11-17 11:42:56.010 23720 23720 I A00000/AnatomyBrowser: onBridgeReady: 页面=已加载；桥接=已就绪；状态=loading；进度=0%；最近事件=onBridgeReady（0ms前）
+11-17 11:42:56.112 23720 23720 I A00000/AnatomyBrowser: progress: 页面=已加载；桥接=已就绪；状态=loading；进度=7%；最近事件=onProgressChange(7%)（0ms前）
+11-17 11:42:56.115 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/models/body-3.bin.gz -> human-atlas/models/body-3.bin.gz
+11-17 11:42:56.160 23720 23720 I A00000/AnatomyBrowser: progress: 页面=已加载；桥接=已就绪；状态=loading；进度=13%；最近事件=onProgressChange(13%)（0ms前）
+11-17 11:42:56.161 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/models/body-4.bin.gz -> human-atlas/models/body-4.bin.gz
+11-17 11:42:56.174 23720 23720 I A00000/AnatomyBrowser: progress: 页面=已加载；桥接=已就绪；状态=loading；进度=20%；最近事件=onProgressChange(20%)（0ms前）
+11-17 11:42:56.175 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/models/body-5.bin.gz -> human-atlas/models/body-5.bin.gz
+11-17 11:42:56.255 23720 23720 I A00000/AnatomyBrowser: progress: 页面=已加载；桥接=已就绪；状态=loading；进度=27%；最近事件=onProgressChange(27%)（0ms前）
+11-17 11:42:56.256 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/models/body-6.bin.gz -> human-atlas/models/body-6.bin.gz
+11-17 11:42:56.284 23720 23720 I A00000/AnatomyBrowser: progress: 页面=已加载；桥接=已就绪；状态=loading；进度=33%；最近事件=onProgressChange(33%)（0ms前）
+11-17 11:42:56.285 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/models/body-7.bin.gz -> human-atlas/models/body-7.bin.gz
+11-17 11:42:56.308 23720 23720 I A00000/AnatomyBrowser: progress: 页面=已加载；桥接=已就绪；状态=loading；进度=40%；最近事件=onProgressChange(40%)（0ms前）
+11-17 11:42:56.310 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/models/body-8.bin.gz -> human-atlas/models/body-8.bin.gz
+11-17 11:42:56.374 23720 23720 I A00000/AnatomyBrowser: progress: 页面=已加载；桥接=已就绪；状态=loading；进度=47%；最近事件=onProgressChange(47%)（0ms前）
+11-17 11:42:56.374 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/models/body-9.bin.gz -> human-atlas/models/body-9.bin.gz
+11-17 11:42:56.415 23720 23720 I A00000/AnatomyBrowser: progress: 页面=已加载；桥接=已就绪；状态=loading；进度=53%；最近事件=onProgressChange(53%)（0ms前）
+11-17 11:42:56.417 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/models/body-10.bin.gz -> human-atlas/models/body-10.bin.gz
+11-17 11:42:56.435 23720 23720 I A00000/AnatomyBrowser: progress: 页面=已加载；桥接=已就绪；状态=loading；进度=60%；最近事件=onProgressChange(60%)（0ms前）
+11-17 11:42:56.436 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/models/body-11.bin.gz -> human-atlas/models/body-11.bin.gz
+11-17 11:42:56.496 23720 23720 I A00000/AnatomyBrowser: progress: 页面=已加载；桥接=已就绪；状态=loading；进度=67%；最近事件=onProgressChange(67%)（0ms前）
+11-17 11:42:56.496 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/models/body-12.bin.gz -> human-atlas/models/body-12.bin.gz
+11-17 11:42:56.526 23720 23720 I A00000/AnatomyBrowser: progress: 页面=已加载；桥接=已就绪；状态=loading；进度=73%；最近事件=onProgressChange(73%)（0ms前）
+11-17 11:42:56.527 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/models/body-13.bin.gz -> human-atlas/models/body-13.bin.gz
+11-17 11:42:56.580 23720 23720 I A00000/AnatomyBrowser: progress: 页面=已加载；桥接=已就绪；状态=loading；进度=80%；最近事件=onProgressChange(80%)（0ms前）
+11-17 11:42:56.581 23720 23720 I A00000/AnatomyBrowser: intercept: https://www.example.com/models/body-14.bin.gz -> human-atlas/models/body-14.bin.gz
+11-17 11:42:56.655 23720 23720 I A00000/AnatomyBrowser: progress: 页面=已加载；桥接=已就绪；状态=loading；进度=87%；最近事件=onProgressChange(87%)（0ms前）
+11-17 11:42:56.668 23720 23720 I A00000/AnatomyBrowser: progress: 页面=已加载；桥接=已就绪；状态=loading；进度=93%；最近事件=onProgressChange(93%)（0ms前）
+11-17 11:42:56.683 23720 23720 I A00000/AnatomyBrowser: progress: 页面=已加载；桥接=已就绪；状态=loading；进度=100%；最近事件=onProgressChange(100%)（0ms前）
+11-17 11:42:58.685 23720 23720 I A00000/AnatomyBrowser: canvas probe: webgl2|538x927|WebGL 2.0 (OpenGL ES 3.0 Chromium)|px=0,0,0,0

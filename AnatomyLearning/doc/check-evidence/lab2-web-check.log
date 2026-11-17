@@ -1,0 +1,130 @@
+bridge ready: true after 0.5s
+{
+  "title": "Human Atlas",
+  "canvas": 1,
+  "bodyText": "INTERACTIVE ANATOMY\nHuman Atlas\n3D\n2,234 modeled pieces · BodyParts3D\n¾\nF\nS\nB\nADULT HUMAN · MALE\nSystems\nExplode anatomy\n0%\nAssembled\nEvery piece\nReset\nSource & credits",
+  "nativeLogSample": [
+    [
+      "onProgressChange",
+      53
+    ],
+    [
+      "onProgressChange",
+      60
+    ],
+    [
+      "onProgressChange",
+      67
+    ],
+    [
+      "onProgressChange",
+      73
+    ],
+    [
+      "onProgressChange",
+      80
+    ],
+    [
+      "onProgressChange",
+      87
+    ],
+    [
+      "onProgressChange",
+      93
+    ],
+    [
+      "onProgressChange",
+      100
+    ]
+  ],
+  "hasSearch": true,
+  "hasSelectPart": true,
+  "hasIsolate": true,
+  "hasExplode": true,
+  "hasToggle": true,
+  "systems": "[{\"id\":\"skeletal\",\"name\":\"Skeleton\",\"color\":\"#e2d9ba\"},{\"id\":\"muscular\",\"name\":\"Muscles\",\"color\":\"#a85b50\"},{\"id\":\"cardiac\",\"name\":\"Heart\",\"color\":\"#b96760\"},{\"id\":\"sensory\",\"name\":\"Sensory organs\",\"color\":\"#b0c8ce\"},{\"id\":\"arterial\",\"name\":\"Arteries\",\"color\":\"#c05245\"},{\"id\":\"venous\",\"name\":\"Veins\",\"color\":\"#527c9f\"},{\"id\":\"nervous\",\"name\":\"Nervous system\",\"color\":\"#d8b565\"},{\"id\":\"respiratory\",\"name\":\"Respiratory\",\"color\":\"#b98991\"},{\"id\":\"digestive\",\"name\":\"Digestive\",\"color\":\"#b8916b\"},{\"id\":\"urinary\",\"name\":\"Urinary\",\"color\":\"#b47961\"},{\"id\":\"lymphatic\",\"name\":\"Lymphatic\",\"color\":\"#879f7c\"},{\"id\":\"endocrine\",\"name\":\"Endocrine\",\"color\":\"#c5a09a\"},{\"id\":\"reproductive\",\"name\":\"Reproductive\",\"color\":\"#bda098\"},{\"id\":\"integumentary\",\"name\":\"Body surface\",\"color\":\"#ba9b7d\"},{\"id\":\"connective\",\"name\":\"Connective tissue\",\"color\":\"#aec3bb\"}]",
+  "progressEvents": [
+    [
+      "onProgressChange",
+      87
+    ],
+    [
+      "onProgressChange",
+      93
+    ],
+    [
+      "onProgressChange",
+      100
+    ]
+  ],
+  "lastProgress": [
+    "onProgressChange",
+    100
+  ]
+}
+ACTIONS {
+  "searchHeart": true,
+  "searchAfter": [
+    [
+      "onBridgeReady"
+    ],
+    [
+      "onBridgeReady"
+    ],
+    [
+      "onStructureSelected",
+      "FMA86212",
+      "region of wall of heart",
+      "concept"
+    ],
+    [
+      "onBridgeReady"
+    ]
+  ],
+  "isolate": true,
+  "finalLog": [
+    [
+      "onProgressChange",
+      93
+    ],
+    [
+      "onProgressChange",
+      100
+    ],
+    [
+      "onBridgeReady"
+    ],
+    [
+      "onBridgeReady"
+    ],
+    [
+      "onBridgeReady"
+    ],
+    [
+      "onStructureSelected",
+      "FMA86212",
+      "region of wall of heart",
+      "concept"
+    ],
+    [
+      "onBridgeReady"
+    ],
+    [
+      "onBridgeReady"
+    ],
+    [
+      "onStructureSelected",
+      "FJ1252",
+      "Gingiva of upper jaw",
+      "skeletal"
+    ],
+    [
+      "onBridgeReady"
+    ]
+  ],
+  "searchNoMatch": false
+}
+screenshot: doc/check-evidence/lab2-web-bundle.png 108430 bytes
+CONSOLE []
+EXCEPTIONS []
+LOG []

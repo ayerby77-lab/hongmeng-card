@@ -1,0 +1,18 @@
+PASS mapRawfilePath 相对路径补全 human-atlas 前缀
+PASS mapRawfilePath 根路径分块重映射到 human-atlas 下
+PASS mapRawfilePath 处理 http(s)/file scheme 与查询、锚点
+PASS mapRawfilePath 拒绝目录穿越与空路径
+PASS mimeOfPath 按扩展名给出 MIME
+PASS 会话单例唯一
+PASS 未就绪时 locate 返回 queued 且不执行脚本
+PASS 就绪前重复定位同一 ID 只登记一次
+PASS 桥接就绪后补发排队请求且只补发一次
+PASS 中文搜索走英文别名并定位
+PASS 英文搜索原样透传
+PASS 空查询被拒绝
+PASS Web 回传结构选中并补全系统名与颜色
+PASS 系统切换更新可见集合并下发指令
+PASS 默认可见系统共 15 个且不含体表
+PASS 加载错误进入 error 并拒绝定位
+
+16 anatomy browser tests passed.

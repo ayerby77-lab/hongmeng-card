@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "人体解剖与课程知识问答"
+    },
+    {
+      "name": "intent_ask_name",
+      "value": "课程知识问答"
+    },
+    {
+      "name": "intent_ask_desc",
+      "value": "基于课程资料库回答解剖学相关问题"
+    }
+  ]
+}

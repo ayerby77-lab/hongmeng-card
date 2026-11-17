@@ -1,0 +1,27 @@
+PASS normalizeStructure 去空白并对空 id/name 返回 null
+PASS readLocateParams 仅需 locateId，缺省时返回 null
+PASS buildLocateParams 生成定位参数，空结构返回空对象
+PASS isValidNoteContent 拒绝空/超长正文
+PASS favoriteAction 依据当前状态给出增/删动作
+PASS planHistoryWrite 新增与更新两种计划
+PASS overflowHistoryIds 按降序保留前 limit 条
+PASS planNoteWrite 新建 / 编辑保留 createdAt
+PASS formatTime / formatDate 输出稳定
+PASS 收藏：新增、重复受控、切换与取消，重启后保留
+PASS 历史：同结构只保留最新一次，按时间倒序，可清空
+PASS 历史超过上限时淘汰最旧记录
+PASS 笔记：按结构关联、编辑保留 createdAt、非法内容与非法结构被拒
+PASS 收藏 / 历史 / 笔记互不干扰，重启后数据完整
+
+14 anatomy data tests passed.
+PASS 同步监听读取完整请求
+PASS A B A 跨页面消费后仍去重
+PASS 同问题新 requestId 可提交
+PASS 初始化失败时读取保留请求
+PASS 旧请求确认不会清掉新请求
+PASS 空问题不发布
+PASS 已就绪页面收到热启动直接提交一次
+PASS 索引完成前保留，完成后自动提交
+PASS autoSubmit=false 仅回填
+PASS 隐藏页面不会消费通知
+10 intent tests passed.

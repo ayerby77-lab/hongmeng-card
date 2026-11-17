@@ -1,0 +1,33 @@
+{
+  "insightIntents": [
+    {
+      "intentName": "AskCourseQuestion",
+      "domain": "EducationDomain",
+      "intentVersion": "1.0.1",
+      "srcEntry": "./ets/entryability/QAIntentExecutor.ets",
+      "displayName": "$string:intent_ask_name",
+      "displayDescription": "$string:intent_ask_desc",
+      "keywords": [
+        "课程问答",
+        "知识问答",
+        "解剖学问答",
+        "问一下心脏",
+        "呼吸系统",
+        "神经系统"
+      ],
+      "uiAbility": {
+        "ability": "EntryAbility",
+        "executeMode": [
+          "foreground"
+        ]
+      },
+      "inputParams": [
+        {
+          "name": "question",
+          "type": "string",
+          "description": "要向课程知识库提问的自然语言问题"
+        }
+      ]
+    }
+  ]
+}

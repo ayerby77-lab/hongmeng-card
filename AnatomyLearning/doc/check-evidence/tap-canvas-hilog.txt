@@ -1,0 +1,1 @@
+11-17 11:43:16.630 23720 23720 I A00000/AnatomyBrowser: onBridgeReady: 页面=已加载；桥接=已就绪；状态=ready；进度=100%；最近事件=onBridgeReady（0ms前）

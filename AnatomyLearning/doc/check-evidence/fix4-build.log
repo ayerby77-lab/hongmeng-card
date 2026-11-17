@@ -1,0 +1,1182 @@
+> hvigor [32mFinished :entry:clean... after 3 ms [39m
+> hvigor [32mFinished :entry:default@PreBuild... after 114 ms [39m
+> hvigor [32mFinished :entry:default@CreateModuleInfo... after 1 ms [39m
+> hvigor [32mFinished :entry:default@GenerateMetadata... after 8 ms [39m
+> hvigor [32mFinished :entry:default@ConfigureCmake... after 1 ms [39m
+> hvigor [32mFinished :entry:default@MergeProfile... after 20 ms [39m
+> hvigor [32mFinished :entry:default@CreateBuildProfile... after 6 ms [39m
+> hvigor [32mFinished :entry:default@PreCheckSyscap... after 1 ms [39m
+> hvigor [32mFinished :entry:default@GeneratePkgContextInfo... after 6 ms [39m
+> hvigor [32mFinished :entry:default@GeneratePkgSdkInfo... after 1 ms [39m
+> hvigor [32mFinished :entry:default@ProcessIntegratedHsp... after 1 ms [39m
+> hvigor [32mFinished :entry:default@BuildNativeWithCmake... after 1 ms [39m
+> hvigor [32mFinished :entry:default@MakePackInfo... after 6 ms [39m
+> hvigor [32mFinished :entry:default@SyscapTransform... after 1 ms [39m
+> hvigor [32mFinished :entry:default@ProcessProfile... after 61 ms [39m
+> hvigor [32mFinished :entry:default@ProcessRouterMap... after 13 ms [39m
+> hvigor [32mFinished :entry:default@ProcessShareConfig... after 8 ms [39m
+> hvigor [32mFinished :entry:default@ProcessStartupConfig... after 3 ms [39m
+> hvigor [32mFinished :entry:default@BuildNativeWithNinja... after 3 ms [39m
+> hvigor [32mFinished :entry:default@ProcessResource... after 10 ms [39m
+> hvigor [32mFinished :entry:default@GenerateLoaderJson... after 31 ms [39m
+> hvigor [32mFinished :entry:default@ProcessLibs... after 4 ms [39m
+> hvigor [32mFinished :entry:default@CompileResource... after 545 ms [39m
+> hvigor [32mFinished :entry:default@DoNativeStrip... after 5 ms [39m
+> hvigor [32mFinished :entry:default@BuildJS... after 9 ms [39m
+> hvigor [32mFinished :entry:default@CacheNativeLibs... after 107 ms [39m
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:731:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'ERR_STREAM_DESTROYED'
+}
+log4js.fileAppender - Writing to file /private/tmp/anatomy-learning-build.FIIQRd/.hvigor/outputs/build-logs/build.log, error happened  Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+    at writeGeneric (node:internal/stream_base_commons:150:3)
+    at Socket._writeGeneric (node:net:966:11)
+    at Socket._write (node:net:978:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Socket.<anonymous> (/Applications/WorkBuddy AI.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/broker-ipc-client.cjs:185:24)
+    at Socket.emit (node:events:520:35)
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1630:10) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write',
+  brokerRequestSent: true
+}
+> hvigor [33mWARN: [33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:70:40
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:74:22
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:75:22
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:91:21
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:95:21
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:99:21
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:135:35
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:139:22
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:142:15
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:148:35
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:153:19
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:156:15
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:171:17
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:185:17
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:195:14
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:195:27
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:196:17
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:196:30
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:197:18
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:197:31
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:198:19
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:198:32
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:199:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:199:31
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:200:21
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:200:32
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:201:21
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:201:32
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:226:19
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:239:35
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:241:22
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:244:15
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:250:35
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:255:19
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:258:15
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:272:35
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:274:22
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:277:15
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:285:17
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:290:14
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:290:27
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:291:22
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:291:35
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:292:28
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:292:39
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:293:19
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:293:32
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:294:23
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:294:34
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:295:21
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:295:32
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:296:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/KnowledgeStore.ts:296:31
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/data/KnowledgeSeeder.ts:30:37
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/data/KnowledgeSeeder.ts:31:33
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/data/KnowledgeSeeder.ts:41:19
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/data/KnowledgeSeeder.ts:42:19
+ The 'flushSync' API is supported since SDK version 14. However, the current compatible SDK version is 5.0.0(12).
+ It is recommended to use apiAvailable to safeguard API compatibility.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/data/KnowledgeSeeder.ts:42:19
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/data/KnowledgeSeeder.ts:55:17
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/data/KnowledgeSeeder.ts:56:17
+ The 'flushSync' API is supported since SDK version 14. However, the current compatible SDK version is 5.0.0(12).
+ It is recommended to use apiAvailable to safeguard API compatibility.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/data/KnowledgeSeeder.ts:56:17
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/service/chat/CloudModelProxy.ets:149:24
+ 'decode' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeQA.ets:155:21
+ 'getContext' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:59:12
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:59:25
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:60:14
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:60:27
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:61:18
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:61:31
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:62:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:62:33
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:63:19
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:63:30
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:69:12
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:69:25
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:70:14
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:70:27
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:71:18
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:71:31
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:72:19
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:72:30
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:78:12
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:78:25
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:79:21
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:79:34
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:80:23
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:80:36
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:81:17
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:81:30
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:82:19
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:82:30
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:83:19
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:83:30
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:96:65
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:98:15
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:99:15
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:100:15
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:111:31
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:114:14
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:115:58
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:117:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:125:31
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:126:21
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:126:52
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:134:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:146:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:164:31
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:166:14
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:168:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:179:22
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:183:22
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:192:31
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:195:14
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:196:57
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:198:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:209:22
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:216:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:227:31
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:230:14
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:231:54
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:233:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:240:31
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:242:14
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:244:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:265:22
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:269:22
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/store/AnatomyStore.ets:279:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/History.ets:49:5
+ 'AlertDialog' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/History.ets:49:17
+ 'show' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:29:49
+ 'getContext' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:69:20
+ 'showToast' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:69:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:73:20
+ 'showToast' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:73:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:77:20
+ 'showToast' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:77:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:83:22
+ 'showToast' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:86:22
+ 'showToast' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:91:20
+ 'showToast' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:91:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:106:22
+ 'showToast' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:109:22
+ 'showToast' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:112:20
+ 'showToast' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:112:20
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:119:12
+ 'pushUrl' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/KnowledgeManage.ets:119:12
+ Function may throw exceptions. Special handling is required.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/SourceDetail.ets:51:49
+ 'getContext' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/SourceDetail.ets:52:27
+ 'getParams' has been deprecated.
+[39m[39m
+[33mWARN: [33m[33mArkTS:WARN File: /private/tmp/anatomy-learning-build.FIIQRd/entry/src/main/ets/pages/SourceDetail.ets:169:33
+ 'back' has been deprecated.
+[39m[39m
+[39m
+> hvigor [32mFinished :entry:default@CompileArkTS... after 7 s 121 ms [39m
+> hvigor [32mFinished :entry:default@GeneratePkgModuleJson... after 9 ms [39m
+> hvigor [32mFinished :entry:default@ProcessCompiledResources... after 1 ms [39m
+> hvigor [32mFinished :entry:default@PackageHap... after 391 ms [39m
+> hvigor [32mFinished :entry:default@PackingCheck... after 4 ms [39m
+> hvigor [33mWARN: No signingConfig found for product default[39m
+> hvigor [32mFinished :entry:default@SignHap... after 1 ms [39m
+> hvigor [32mFinished :entry:default@CollectDebugSymbol... after 1 ms [39m
+> hvigor [32mFinished :entry:assembleHap... after 1 ms [39m
+> hvigor [32mBUILD SUCCESSFUL in 23 s 552 ms [39m
+
+34 tasks in total: 34 executed, 0 up-to-date
+HAP: /Users/avery/Desktop/hongmeng system/AnatomyLearning/dist/

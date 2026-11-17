@@ -1,0 +1,101 @@
+<!doctype html><html lang="en" ><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/><meta name="theme-color" content="#f3f4f4"/><meta name="description" content="An interactive atlas of the human body. Explore named anatomical structures, reveal organ systems, and inspect individual parts in 3D."/><title>Human Atlas</title><link rel="icon" href="./favicon.svg"/>
+  <!-- ArkWeb 以 resource://rawfile 的 opaque origin 加载页面；crossorigin/type=module
+       会强制 CORS 校验并阻断本地脚本与样式。此 bundle 已由 Vite 打成单文件，
+       无 import/export，使用普通 defer 脚本即可离线执行。 -->
+  <script>
+    (function () {
+      // 原生侧页面重新可见时用它判断是否真的完成过模型加载，避免误判为就绪。
+      window.__atlasProgress = 0;
+      window.__atlasLoadError = '';
+      var canvasProbed = false;
+      function probeCanvas() {
+        var canvas = document.querySelector('canvas');
+        if (!canvas) {
+          window.__atlasCanvasInfo = 'no-canvas';
+          return;
+        }
+        var gl = null;
+        var kind = '';
+        try {
+          gl = canvas.getContext('webgl2');
+          kind = 'webgl2';
+        } catch (e) {
+        }
+        if (!gl) {
+          try {
+            gl = canvas.getContext('webgl');
+            kind = 'webgl';
+          } catch (e) {
+          }
+        }
+        if (!gl) {
+          window.__atlasCanvasInfo = 'no-webgl';
+          return;
+        }
+        var pixel = new Uint8Array(4);
+        try {
+          gl.readPixels(Math.floor(canvas.width / 2), Math.floor(canvas.height / 2),
+            1, 1, gl.RGBA, gl.UNSIGNED_BYTE, pixel);
+        } catch (e) {
+        }
+        window.__atlasCanvasInfo = kind + '|' + canvas.width + 'x' + canvas.height + '|' +
+          gl.getParameter(gl.VERSION) + '|px=' + Array.prototype.join.call(pixel, ',');
+      }
+      // 与进度桥接解耦：画布出现后主动采样一次，便于原生侧诊断 WebGL 状态。
+      setTimeout(probeCanvas, 1500);
+      // ArkWeb 上首帧可能在画布尺寸稳定前绘制；桥接对象出现后切换一次默认系统，
+      // 触发一次无副作用的重绘，避免画面只剩清屏色。
+      var redrawTimer = setInterval(function () {
+        if (window.__atlasBridge && typeof window.__atlasBridge.toggleSystem === 'function') {
+          clearInterval(redrawTimer);
+          // 模型分块加载约 1 秒，再等 3 秒确保画布尺寸和首帧都已稳定。
+          setTimeout(function () {
+            window.__atlasBridge.toggleSystem('skeletal', false);
+            setTimeout(function () {
+              window.__atlasBridge.toggleSystem('skeletal', true);
+            }, 800);
+          }, 3000);
+        }
+      }, 200);
+      var bridge = window.NativeBridge;
+      if (bridge && typeof bridge.onProgressChange === 'function') {
+        var originalProgress = bridge.onProgressChange;
+        try {
+          bridge.onProgressChange = function (progress) {
+            window.__atlasProgress = Number(progress) || 0;
+            if (window.__atlasProgress >= 100 && !canvasProbed) {
+              canvasProbed = true;
+              setTimeout(probeCanvas, 1200);
+            }
+            return originalProgress.call(bridge, progress);
+          };
+        } catch (e) {
+        }
+      }
+      function report(message) {
+        var text = String(message);
+        window.__atlasLoadError = text;
+        try {
+          if (window.NativeBridge && typeof window.NativeBridge.onWebError === 'function') {
+            window.NativeBridge.onWebError(text);
+          }
+        } catch (e) {
+        }
+      }
+      window.addEventListener('error', function (event) {
+        var target = event.target;
+        if (target && target !== window && (target.src || target.href)) {
+          report('3D 资源加载失败：' + (target.src || target.href));
+          return;
+        }
+        report('3D 页面脚本错误：' + (event.message || '未知错误'));
+      }, true);
+      window.addEventListener('unhandledrejection', function (event) {
+        var reason = event.reason;
+        report('3D 模型异步加载失败：' + ((reason && reason.message) || reason || '未知错误'));
+      });
+    })();
+  </script>
+  <script defer src="./assets/index-1ie-Jbum.js"></script>
+  <link rel="stylesheet" href="./assets/index-excBUMy1.css">
+</head><body><div id="root"></div></body></html>
